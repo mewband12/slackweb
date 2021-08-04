@@ -1,0 +1,38 @@
+
+  
+  .organization {
+    opacity: .3;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .organization:hover {
+    opacity: 1;
+  }
+  
+  .organization.active {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+  .conversations-sidebar span {
+    opacity: 0.3;
+  }
+  .conversations-sidebar span:active {
+    opacity: 1;
+  }
+  .channel{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+  }
+  .channel:active {
+    opacity: 1;
+  }
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

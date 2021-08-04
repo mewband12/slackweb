@@ -1,0 +1,21 @@
+/* TODO: slack layout */
+.containerr {
+  display: flex;
+}
+.organizations-sidebar {
+    background-color: #261C25;
+    color: white;
+    padding: 16px;
+    text-align: center;
+  }
+.conversations-sidebar {
+  background-color: rgb(75,57,73);
+  padding: 16px;
+  background-size: cover;
+  color: white;
+  width: 200px;
+}
+.chat-section {
+  background-color: white;
+  padding: 16px;
+}
